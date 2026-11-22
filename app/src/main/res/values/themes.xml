@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DevLoveTool" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Brand -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/primary_dark</item>
+        <item name="colorSecondaryVariant">@color/primary_deep</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Typography -->
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="fontFamily">@font/plus_jakarta_sans</item>
+
+        <!-- System Bars -->
+        <item name="android:statusBarColor">@color/card</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/card</item>
+
+        <!-- Surfaces -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Component Defaults -->
+        <item name="materialButtonStyle">@style/DevLoveTool.Button</item>
+        <item name="alertDialogTheme">@style/DevLoveTool.AlertDialog</item>
+        <item name="materialAlertDialogTheme">@style/DevLoveTool.AlertDialog</item>
+    </style>
+
+    <!-- Rounded Dialog Theme -->
+    <style name="DevLoveTool.AlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/DevLoveTool.DialogShape</item>
+        <item name="android:backgroundDimAmount">0.48</item>
+    </style>
+
+    <style name="DevLoveTool.DialogShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">22dp</item>
+    </style>
+
+    <!-- Primary CTA Button -->
+    <style name="DevLoveTool.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">52dp</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:stateListAnimator">@animator/press_scale</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Outlined Action Button -->
+    <style name="DevLoveTool.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:stateListAnimator">@animator/press_scale</item>
+        <item name="strokeColor">@color/border_strong</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="backgroundTint">@color/card</item>
+    </style>
+
+    <!-- Elevated Precision Card -->
+    <style name="DevLoveTool.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardElevation">1dp</item>
+        <item name="strokeColor">@color/card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardBackgroundColor">@color/card</item>
+    </style>
+
+    <!-- Section Header Label (Linear style uppercase micro-label) -->
+    <style name="DevLoveTool.SectionLabel" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+
+    <!-- Input Field Label -->
+    <style name="DevLoveTool.FieldLabel" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>

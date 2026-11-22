@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DevLoveTool</string>
+    <string name="app_tagline">Production Android Developer Toolkit</string>
+
+    <!-- Navigation -->
+    <string name="nav_installed_apps">Installed Apps</string>
+    <string name="nav_keystore_gen">Keystore Gen</string>
+    <string name="nav_apk_to_aab">APK to AAB</string>
+
+    <!-- Installed Apps Explorer -->
+    <string name="hint_search_apps">Search apps or packages…</string>
+    <string name="search_apps_hint">Search by app or package name…</string>
+    <string name="filter_user_apps">User Apps</string>
+    <string name="filter_user_apps_only">User apps only</string>
+    <string name="filter_all_apps">All Apps (inc. System)</string>
+    <string name="sort_alphabetical">Sort A-Z</string>
+    <string name="sort_reverse_alphabetical">Sort Z-A</string>
+    <string name="sort_size">Sort by Size</string>
+    <string name="sort_recent_installed">Recent Installed First</string>
+    <string name="sort_alpha_asc">Alphabetical (A to Z)</string>
+    <string name="sort_alpha_desc">Alphabetical (Z to A)</string>
+    <string name="sort_size_desc">By Storage Size</string>
+    <string name="action_sort">Sort Apps</string>
+    <string name="action_refresh">Refresh Apps</string>
+    <string name="refresh">Refresh</string>
+    <string name="empty_apps_title">No Applications Found</string>
+    <string name="empty_apps_desc">No matching applications installed on this device.</string>
+    <string name="no_apps_found">No matching applications found</string>
+    <string name="loading_apps">Loading installed applications…</string>
+    <string name="total_apps_count">%1$d apps found</string>
+
+    <!-- App Details Tabs -->
+    <string name="tab_overview">Overview</string>
+    <string name="tab_certificate">Certificate</string>
+    <string name="tab_sdk_permissions">SDK &amp; Permissions</string>
+    <string name="tab_components">Components</string>
+
+    <!-- App Details Overview -->
+    <string name="label_package_name">Package Name</string>
+    <string name="label_version_name">Version Name</string>
+    <string name="label_version_code">Version Code</string>
+    <string name="label_first_installed">First Installed</string>
+    <string name="label_last_updated">Last Updated</string>
+    <string name="label_installer_package">Installer</string>
+    <string name="label_apk_location">APK Location</string>
+    <string name="label_app_size">App Size</string>
+    <string name="action_launch_app">Launch Application</string>
+    <string name="action_app_info">Open App Settings</string>
+    <string name="action_export_apk">Export APK</string>
+
+    <!-- App Details Certificate -->
+    <string name="label_cert_subject">Certificate Subject</string>
+    <string name="label_cert_issuer">Issuer</string>
+    <string name="label_cert_serial">Serial Number</string>
+    <string name="label_cert_valid_from">Valid From</string>
+    <string name="label_cert_valid_to">Valid To</string>
+    <string name="label_cert_sha256">SHA-256 Fingerprint</string>
+    <string name="label_cert_sha1">SHA-1 Fingerprint</string>
+    <string name="label_cert_md5">MD5 Fingerprint</string>
+    <string name="label_cert_algorithm">Signature Algorithm</string>
+    <string name="label_cert_history">Signing Certificate History</string>
+    <string name="action_copy">Copy</string>
+    <string name="toast_copied">Copied to clipboard</string>
+    <string name="no_cert_found">No signing certificates found or unavailable</string>
+
+    <!-- App Details SDK & Permissions -->
+    <string name="label_min_sdk">Minimum SDK</string>
+    <string name="label_target_sdk">Target SDK</string>
+    <string name="label_compile_sdk">Compile SDK</string>
+    <string name="label_requested_permissions">Requested Permissions (%1$d)</string>
+    <string name="status_granted">Granted</string>
+    <string name="status_not_granted">Not Granted</string>
+    <string name="no_permissions">No permissions requested</string>
+
+    <!-- App Details Components -->
+    <string name="label_activities">Activities (%1$d)</string>
+    <string name="label_services">Services (%1$d)</string>
+    <string name="label_receivers">Broadcast Receivers (%1$d)</string>
+    <string name="label_providers">Content Providers (%1$d)</string>
+    <string name="no_components">None declared</string>
+
+    <!-- Keystore Generator -->
+    <string name="label_keystore_format">Keystore Format</string>
+    <string name="keystore_generator_title">Keystore Generator</string>
+    <string name="keystore_generator_subtitle">Generate standard Android JKS or PKCS12 signing keystores with custom certificates.</string>
+    <string name="input_keystore_filename">Keystore Filename (e.g. my-release-key)</string>
+    <string name="input_keystore_password">Keystore Password (min 6 characters)</string>
+    <string name="input_key_alias">Key Alias (e.g. key0)</string>
+    <string name="input_key_password">Key Password (min 6 characters)</string>
+    <string name="input_validity_years">Validity (Years, default: 100)</string>
+    <string name="input_cert_name">Certificate Name / CN (e.g. Rahul Sharma)</string>
+    <string name="input_org">Organization / O (e.g. Bharat Apps)</string>
+    <string name="input_org_unit">Organizational Unit / OU (e.g. Mobile)</string>
+    <string name="input_city">City / Locality (L)</string>
+    <string name="input_state">State / Province (ST)</string>
+    <string name="input_country">Country Code (2 letters, e.g. IN)</string>
+    <string name="format_pkcs12">PKCS12 (.p12 / .keystore)</string>
+    <string name="format_jks">JKS (.jks) [Default]</string>
+    <string name="btn_generate_keystore">Generate Keystore</string>
+    <string name="generating_keystore">Generating RSA 2048-bit Key &amp; Certificate…</string>
+    <string name="keystore_success_title">Keystore Generated Successfully!</string>
+    <string name="btn_share_export">Share Keystore</string>
+    <string name="btn_share_keystore">Share Keystore</string>
+    <string name="btn_save_to_folder">Save to Folder</string>
+    <string name="btn_create_another">Generate Another Keystore</string>
+    <string name="title_confirm_overwrite">File Exists</string>
+    <string name="msg_confirm_overwrite">A keystore with this filename already exists. Do you want to overwrite it?</string>
+    <string name="btn_overwrite">Overwrite</string>
+
+    <!-- Module 3 APK to AAB + Sign -->
+    <string name="apk_to_aab_title">APK to AAB &amp; Signing Suite</string>
+    <string name="apk_to_aab_subtitle">Inspect APK architecture, build bundle structures, and cryptographically sign packages.</string>
+    <string name="step_select_apk">Step 1: Select APK</string>
+    <string name="btn_choose_apk">Choose APK File</string>
+    <string name="step_select_keystore">Step 2: Select Keystore</string>
+    <string name="btn_choose_keystore">Choose Keystore File</string>
+    <string name="step_signing_details">Step 3: Signing Credentials</string>
+    <string name="step_output">Step 4: Output Configuration</string>
+    <string name="btn_start_conversion">Run Conversion &amp; Sign Bundle</string>
+    <string name="step_progress">Step 5: Processing…</string>
+    <string name="step_success">Step 6: Completion Report</string>
+    <string name="btn_share_output">Share Bundle</string>
+    <string name="conversion_report_title">Architectural Assessment &amp; Signing Report</string>
+</resources>

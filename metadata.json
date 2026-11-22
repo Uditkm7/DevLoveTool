@@ -1,0 +1,8 @@
+{
+  "name": "DevLoveTool",
+  "description": "Production-level Android developer toolkit for installed app inspection, keystore generation, and APK/AAB bundle analysis and signing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

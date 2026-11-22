@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Cobalt Indigo -->
+    <color name="primary">#2563EB</color>
+    <color name="primary_dark">#1D4ED8</color>
+    <color name="primary_deep">#1E3A8A</color>
+    <color name="primary_light">#EFF6FF</color>
+    <color name="primary_ring">#BFDBFE</color>
+
+    <!-- Neutrals & Surfaces (Obsidian & Slate Precision) -->
+    <color name="background">#F4F6FA</color>
+    <color name="card">#FFFFFF</color>
+    <color name="surface_subtle">#F1F5F9</color>
+    <color name="surface_input">#F8FAFC</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="secondary">#64748B</color>
+    <color name="text_tertiary">#94A3B8</color>
+    <color name="border">#E2E8F0</color>
+    <color name="border_strong">#CBD5E1</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="divider_subtle">#F1F5F9</color>
+    <color name="nav_inactive">#64748B</color>
+
+    <!-- Semantic Status -->
+    <color name="success">#059669</color>
+    <color name="success_light">#ECFDF5</color>
+    <color name="success_border">#A7F3D0</color>
+    <color name="warning">#D97706</color>
+    <color name="warning_light">#FFFBEB</color>
+    <color name="error">#DC2626</color>
+    <color name="error_light">#FEF2F2</color>
+    <color name="error_border">#FECACA</color>
+
+    <!-- Dark Telemetry Build Console -->
+    <color name="console_bg">#0F172A</color>
+    <color name="console_surface">#1E293B</color>
+    <color name="console_border">#334155</color>
+    <color name="console_text">#F8FAFC</color>
+    <color name="console_muted">#94A3B8</color>
+    <color name="console_accent">#38BDF8</color>
+    <color name="console_success">#34D399</color>
+    <color name="console_error">#F87171</color>
+
+    <!-- Base -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

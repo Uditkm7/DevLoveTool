@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_installed_apps"
+        android:icon="@drawable/ic_apps"
+        android:title="@string/nav_installed_apps" />
+    <item
+        android:id="@+id/action_keystore_gen"
+        android:icon="@drawable/ic_vpn_key"
+        android:title="@string/nav_keystore_gen" />
+    <item
+        android:id="@+id/action_apk_to_aab"
+        android:icon="@drawable/ic_transform"
+        android:title="@string/nav_apk_to_aab" />
+</menu>
